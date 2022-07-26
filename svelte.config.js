@@ -14,7 +14,6 @@ const config = {
             pages: "docs",
             assets: "docs",
 						fallback : "202.html",
-						trailingSlash: 'always'
         }),
 				paths: {
             // change below to your repo name
