@@ -1,4 +1,8 @@
 
+<script>
+  import { base } from '$app/paths';
+</script>
+
 <svelte:head>
   <title>Welcome</title>
 </svelte:head>
@@ -8,4 +12,4 @@
 <p> Test </p>
 <p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
 
-<a href="/about">About my site</a>
+<a href="{base}/about">About my site</a>
