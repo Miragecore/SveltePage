@@ -8,5 +8,5 @@
 </svelte:head>
 
 <h1>About this site</h1>
-<Menu/>
+<!--<Menu/>-->
 <p>TODO...</p>
