@@ -1,12 +1,16 @@
-
-<script>
+<script context="module">
   import { base } from '$app/paths';
-	import Menu from './menu.svelte';
+
+	export let posts;
 </script>
 
 <svelte:head>
   <title>Welcome Head</title>
 </svelte:head>
+
+<div>
+  <h1>SvelteKit Blog</h1>
+</div>
 
 <h1>Welcome to SvelteKit</h1>
 <!--<Menu/>-->

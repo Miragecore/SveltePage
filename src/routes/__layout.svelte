@@ -1,6 +1,7 @@
 <!-- src/routes/__layout.svelte -->
 <script>
   import { base } from '$app/paths';
+	import Nav from '$lib/Nav.svelte';
 </script>
 
 <nav>
@@ -21,6 +22,7 @@
 	vm <br>
 	</div>
 	<div class="page-container">
+		<Nav/>
 		<slot></slot>
   </div>
 </div>
